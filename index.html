@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Science of Wellness — Where ancient wisdom meets modern science. Explore Wim Hof, breathwork, sound healing, plant medicine, MDMA therapy, and Human Garage.">
+  <title>Science of Wellness | Ancient Wisdom · Modern Science</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">
+      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="18" cy="18" r="8" stroke="#C9A84C" stroke-width="1"/>
+        <circle cx="26" cy="18" r="8" stroke="#C9A84C" stroke-width="1"/>
+        <circle cx="22" cy="11.07" r="8" stroke="#C9A84C" stroke-width="1"/>
+        <circle cx="14" cy="11.07" r="8" stroke="#C9A84C" stroke-width="1"/>
+        <circle cx="10" cy="18" r="8" stroke="#C9A84C" stroke-width="1"/>
+        <circle cx="14" cy="24.93" r="8" stroke="#C9A84C" stroke-width="1"/>
+        <circle cx="22" cy="24.93" r="8" stroke="#C9A84C" stroke-width="1"/>
+      </svg>
+      Science of Wellness
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#topics">Topics</a></li>
+      <li><a href="#articles">Articles</a></li>
+      <li><a href="#newsletter" class="nav-cta">Begin Journey</a></li>
+    </ul>
+    <div class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="stars-container" id="stars"></div>
+
+    <!-- Flower of Life SVG -->
+    <div class="flower-wrapper">
+      <svg class="flower-of-life" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <radialGradient id="gold-glow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#C9A84C" stop-opacity="0.6"/>
+            <stop offset="100%" stop-color="#C9A84C" stop-opacity="0.1"/>
+          </radialGradient>
+        </defs>
+        <!-- Outer ring (slow pulse) -->
+        <g stroke="#C9A84C" stroke-width="0.6" fill="none" opacity="0.25">
+          <circle cx="460" cy="300" r="80"/>
+          <circle cx="380" cy="161.44" r="80"/>
+          <circle cx="220" cy="161.44" r="80"/>
+          <circle cx="140" cy="300" r="80"/>
+          <circle cx="220" cy="438.56" r="80"/>
+          <circle cx="380" cy="438.56" r="80"/>
+          <circle cx="420" cy="230.72" r="80"/>
+          <circle cx="300" cy="161.44" r="80"/>
+          <circle cx="180" cy="230.72" r="80"/>
+          <circle cx="180" cy="369.28" r="80"/>
+          <circle cx="300" cy="438.56" r="80"/>
+          <circle cx="420" cy="369.28" r="80"/>
+        </g>
+        <!-- Inner flower (counter-rotates) -->
+        <g class="flower-inner" stroke="#C9A84C" stroke-width="1" fill="none" opacity="0.55"
+           style="transform-origin: 300px 300px">
+          <circle cx="300" cy="300" r="80"/>
+          <circle cx="380" cy="300" r="80"/>
+          <circle cx="340" cy="230.72" r="80"/>
+          <circle cx="260" cy="230.72" r="80"/>
+          <circle cx="220" cy="300" r="80"/>
+          <circle cx="260" cy="369.28" r="80"/>
+          <circle cx="340" cy="369.28" r="80"/>
+        </g>
+        <!-- Center dot -->
+        <circle cx="300" cy="300" r="4" fill="#C9A84C" opacity="0.8"/>
+        <!-- Six-pointed star lines -->
+        <g stroke="#C9A84C" stroke-width="0.5" opacity="0.3">
+          <line x1="300" y1="140" x2="300" y2="460"/>
+          <line x1="161" y1="220" x2="439" y2="380"/>
+          <line x1="439" y1="220" x2="161" y2="380"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Scienceofwellness.com</p>
+      <h1 class="hero-title">
+        Where <em>Ancient Wisdom</em><br>Meets Modern Science
+      </h1>
+
+      <div class="hero-divider">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="12,2 22,22 2,22" fill="none" stroke="#C9A84C" stroke-width="1.5"/>
+          <circle cx="12" cy="12" r="5" fill="none" stroke="#C9A84C" stroke-width="1.5"/>
+        </svg>
+      </div>
+
+      <p class="hero-subtitle">
+        Discover the frontier where traditional healing meets cutting-edge research —
+        from Wim Hof's cold mastery to plant medicine, breathwork, and the science of sound.
+      </p>
+      <div class="hero-ctas">
+        <a href="#topics" class="btn-primary">Explore the Modalities</a>
+        <a href="#articles" class="btn-secondary">Read the Science</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="mission" id="mission">
+    <div class="mission-grid">
+      <div class="mission-left reveal">
+        <p class="mission-quote">
+          "The doctor of the future will give no medicine, but will interest his patients
+          in the care of the human frame, in diet, and in the cause and prevention of disease."
+        </p>
+        <p class="mission-attribution">— Thomas Edison, 1903</p>
+      </div>
+      <div class="mission-right reveal reveal-delay-2">
+        <p class="sacred-label">Our Mission</p>
+        <h2>The Bridge Between <span class="gradient-text">Two Worlds</span></h2>
+        <p>
+          For thousands of years, healers, shamans, and sages developed sophisticated
+          technologies for transforming body and mind. Today, neuroscientists, immunologists,
+          and trauma researchers are rediscovering the same truths — through a different lens.
+        </p>
+        <p>
+          We are here at the crossroads, translating ancient wisdom into scientific language
+          and scientific findings into lived practice.
+        </p>
+        <div class="mission-stats">
+          <div class="stat reveal reveal-delay-1">
+            <span class="stat-number">300+</span>
+            <span class="stat-label">Studies Reviewed</span>
+          </div>
+          <div class="stat reveal reveal-delay-2">
+            <span class="stat-number">6</span>
+            <span class="stat-label">Core Modalities</span>
+          </div>
+          <div class="stat reveal reveal-delay-3">
+            <span class="stat-number">5,000+</span>
+            <span class="stat-label">Years of Wisdom</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Topics Section -->
+  <section class="topics" id="topics">
+    <div class="section-header reveal">
+      <p class="sacred-label">Explore the Modalities</p>
+      <h2>Six Paths to <span class="gradient-text">Wholeness</span></h2>
+      <p>From the ice and breath to vibration and plant wisdom — each tradition holds a key to human flourishing.</p>
+    </div>
+
+    <div class="topics-grid">
+
+      <a href="articles/wim-hof.html" class="topic-card reveal reveal-delay-1">
+        <div class="topic-bg topic-wim"></div>
+        <div class="topic-overlay"></div>
+        <div class="topic-content">
+          <span class="topic-icon">❄</span>
+          <h3>Wim Hof Method</h3>
+          <p class="topic-desc">Cold exposure, breathwork, and mind over matter. The science of voluntary control over the autonomic nervous system.</p>
+          <span class="topic-link">Explore</span>
+        </div>
+      </a>
+
+      <a href="articles/human-garage.html" class="topic-card reveal reveal-delay-2">
+        <div class="topic-bg topic-garage"></div>
+        <div class="topic-overlay"></div>
+        <div class="topic-content">
+          <span class="topic-icon">⬡</span>
+          <h3>Human Garage</h3>
+          <p class="topic-desc">Decompressing the body's living matrix. The fascial system, tensegrity, and the architecture of embodied healing.</p>
+          <span class="topic-link">Explore</span>
+        </div>
+      </a>
+
+      <a href="articles/iboga.html" class="topic-card reveal reveal-delay-3">
+        <div class="topic-bg topic-iboga"></div>
+        <div class="topic-overlay"></div>
+        <div class="topic-content">
+          <span class="topic-icon">🌿</span>
+          <h3>Iboga</h3>
+          <p class="topic-desc">The sacred root of the Bwiti tradition. Ancient initiatic medicine now at the forefront of addiction neuroscience.</p>
+          <span class="topic-link">Explore</span>
+        </div>
+      </a>
+
+      <a href="articles/mdma-therapy.html" class="topic-card reveal reveal-delay-1">
+        <div class="topic-bg topic-mdma"></div>
+        <div class="topic-overlay"></div>
+        <div class="topic-content">
+          <span class="topic-icon">♡</span>
+          <h3>MDMA Therapy</h3>
+          <p class="topic-desc">Healing the trauma wound through heart-opening medicine. Phase 3 clinical trials redefine PTSD treatment.</p>
+          <span class="topic-link">Explore</span>
+        </div>
+      </a>
+
+      <a href="articles/breathwork.html" class="topic-card reveal reveal-delay-2">
+        <div class="topic-bg topic-breath"></div>
+        <div class="topic-overlay"></div>
+        <div class="topic-content">
+          <span class="topic-icon">∞</span>
+          <h3>Breathwork</h3>
+          <p class="topic-desc">Twenty thousand breaths a day — your most powerful tool. Pranayama, holotropic breathing, and the polyvagal revolution.</p>
+          <span class="topic-link">Explore</span>
+        </div>
+      </a>
+
+      <a href="articles/sound-healing.html" class="topic-card reveal reveal-delay-3">
+        <div class="topic-bg topic-sound"></div>
+        <div class="topic-overlay"></div>
+        <div class="topic-content">
+          <span class="topic-icon">♫</span>
+          <h3>Sound Healing</h3>
+          <p class="topic-desc">Vibration as medicine. From Tibetan singing bowls to cymatics and binaural entrainment — the universe is frequency.</p>
+          <span class="topic-link">Explore</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Featured Articles -->
+  <section class="articles" id="articles">
+    <div class="section-header reveal">
+      <p class="sacred-label">Featured Articles</p>
+      <h2>Dive <span class="gradient-text">Deeper</span></h2>
+      <p>Peer-reviewed science, ancient texts, and practical guidance — all in one place.</p>
+    </div>
+
+    <div class="articles-grid">
+
+      <a href="articles/breathwork.html" class="article-card reveal reveal-delay-1">
+        <div class="article-header">
+          <div class="article-header-bg" style="background: linear-gradient(135deg, #030C18, #1A6B8B, #6BB8D4);"></div>
+          <span class="article-category">Breathwork · Neuroscience</span>
+        </div>
+        <div class="article-body">
+          <h3>The Polyvagal Revolution: How Your Breath Rewires Your Nervous System</h3>
+          <p class="article-excerpt">Dr. Stephen Porges' groundbreaking theory explains why breathing slowly activates the vagus nerve — your body's built-in peace signal — and how ancient pranayama masters knew this millennia ago.</p>
+          <div class="article-meta">
+            <span>12 min read</span>
+            <span class="read-more">Read Article →</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="articles/wim-hof.html" class="article-card reveal reveal-delay-2">
+        <div class="article-header">
+          <div class="article-header-bg" style="background: linear-gradient(135deg, #041428, #1A5FA8, #B0D8F0);"></div>
+          <span class="article-category">Cold Therapy · Immunology</span>
+        </div>
+        <div class="article-body">
+          <h3>The Iceman's Gift: Voluntary Control of the Immune System</h3>
+          <p class="article-excerpt">A landmark 2014 study in PNAS proved what Wim Hof claimed for years: through breath and cold, humans can consciously influence the autonomic nervous system and innate immune response.</p>
+          <div class="article-meta">
+            <span>15 min read</span>
+            <span class="read-more">Read Article →</span>
+          </div>
+        </div>
+      </a>
+
+      <a href="articles/sound-healing.html" class="article-card reveal reveal-delay-3">
+        <div class="article-header">
+          <div class="article-header-bg" style="background: linear-gradient(135deg, #180A02, #6B3A0A, #C9A84C);"></div>
+          <span class="article-category">Sound · Cymatics</span>
+        </div>
+        <div class="article-body">
+          <h3>When Sound Makes Matter Dance: Cymatics and the Science of Healing Frequencies</h3>
+          <p class="article-excerpt">Hans Jenny's experiments in the 1960s revealed that sound waves create precise geometric patterns in matter. Today, researchers are discovering how specific frequencies affect everything from cancer cells to brain waves.</p>
+          <div class="article-meta">
+            <span>10 min read</span>
+            <span class="read-more">Read Article →</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Philosophy Section -->
+  <section class="philosophy">
+    <!-- Sacred geometry background -->
+    <svg class="philosophy-geo" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="300" cy="300" r="200" stroke="white" stroke-width="1" fill="none"/>
+      <circle cx="300" cy="300" r="150" stroke="white" stroke-width="1" fill="none"/>
+      <circle cx="300" cy="300" r="100" stroke="white" stroke-width="1" fill="none"/>
+      <polygon points="300,100 484,250 440,450 160,450 116,250" stroke="white" stroke-width="1" fill="none"/>
+      <polygon points="300,500 116,350 160,150 440,150 484,350" stroke="white" stroke-width="1" fill="none"/>
+    </svg>
+
+    <div class="philosophy-content">
+      <span class="philosophy-symbol">✦</span>
+      <blockquote>
+        "As above, so below;<br>
+        as within, <em>so without</em>."
+      </blockquote>
+      <p class="philosophy-source">— The Emerald Tablet, Hermes Trismegistus (c. 200 CE)</p>
+      <div style="width:60px;height:1px;background:var(--gold);margin:2rem auto;opacity:0.5;"></div>
+      <p>
+        The universe follows patterns — the Fibonacci spiral in galaxies, the golden ratio in your DNA,
+        the same geometric forms discovered in ice crystals and in meditation brain scans.
+        Every great healing tradition understood this deep order.
+        Modern science is catching up, one study at a time.
+      </p>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter" id="newsletter">
+    <p class="sacred-label">Join the Community</p>
+    <h2>Seekers &amp; Scientists</h2>
+    <p>Weekly insights at the intersection of ancient wisdom and modern research. No noise — only signal.</p>
+    <form class="newsletter-form" onsubmit="return handleSubscribe(event)">
+      <input type="email" placeholder="your@email.com" required aria-label="Email address">
+      <button type="submit">Subscribe</button>
+    </form>
+    <p class="newsletter-note">No spam, ever. Unsubscribe anytime. ✦</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo" style="color:var(--gold);">
+          <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:32px;height:32px;" aria-hidden="true">
+            <circle cx="18" cy="18" r="8" stroke="#C9A84C" stroke-width="1"/>
+            <circle cx="26" cy="18" r="8" stroke="#C9A84C" stroke-width="1"/>
+            <circle cx="22" cy="11.07" r="8" stroke="#C9A84C" stroke-width="1"/>
+            <circle cx="14" cy="11.07" r="8" stroke="#C9A84C" stroke-width="1"/>
+            <circle cx="10" cy="18" r="8" stroke="#C9A84C" stroke-width="1"/>
+            <circle cx="14" cy="24.93" r="8" stroke="#C9A84C" stroke-width="1"/>
+            <circle cx="22" cy="24.93" r="8" stroke="#C9A84C" stroke-width="1"/>
+          </svg>
+          Science of Wellness
+        </div>
+        <p>Where ancient wisdom meets modern science. Exploring the frontiers of human healing and potential.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Modalities</h4>
+        <a href="articles/wim-hof.html">Wim Hof Method</a>
+        <a href="articles/human-garage.html">Human Garage</a>
+        <a href="articles/iboga.html">Iboga</a>
+        <a href="articles/mdma-therapy.html">MDMA Therapy</a>
+        <a href="articles/breathwork.html">Breathwork</a>
+        <a href="articles/sound-healing.html">Sound Healing</a>
+      </div>
+      <div class="footer-col">
+        <h4>Science</h4>
+        <a href="#">Neuroscience</a>
+        <a href="#">Immunology</a>
+        <a href="#">Trauma Research</a>
+        <a href="#">Epigenetics</a>
+        <a href="#">Cymatics</a>
+      </div>
+      <div class="footer-col">
+        <h4>Wisdom</h4>
+        <a href="#">Ayurveda</a>
+        <a href="#">Tibetan Medicine</a>
+        <a href="#">Bwiti Tradition</a>
+        <a href="#">Pranayama</a>
+        <a href="#">Sacred Geometry</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Science of Wellness · scienceofwellness.com · All content is educational only. Consult a healthcare provider before any practice.</p>
+      <div class="footer-geo">
+        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="30" cy="30" r="8" stroke="#C9A84C" stroke-width="0.8"/>
+          <circle cx="38" cy="30" r="8" stroke="#C9A84C" stroke-width="0.8"/>
+          <circle cx="34" cy="23.07" r="8" stroke="#C9A84C" stroke-width="0.8"/>
+          <circle cx="26" cy="23.07" r="8" stroke="#C9A84C" stroke-width="0.8"/>
+          <circle cx="22" cy="30" r="8" stroke="#C9A84C" stroke-width="0.8"/>
+          <circle cx="26" cy="36.93" r="8" stroke="#C9A84C" stroke-width="0.8"/>
+          <circle cx="34" cy="36.93" r="8" stroke="#C9A84C" stroke-width="0.8"/>
+        </svg>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
